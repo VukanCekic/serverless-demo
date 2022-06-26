@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "f3fc12e3-4a31-467c-88ab-847b90212f72",
+		"name": "SERVERLESS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"todo\": \"first-todo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dv9p2dn016.execute-api.us-west-2.amazonaws.com/dev/",
+					"protocol": "https",
+					"host": [
+						"dv9p2dn016",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dv9p2dn016.execute-api.us-west-2.amazonaws.com/dev/003680eb-e3b0-4c8d-a6e3-16f79edf4747",
+					"protocol": "https",
+					"host": [
+						"dv9p2dn016",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"003680eb-e3b0-4c8d-a6e3-16f79edf4747"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dv9p2dn016.execute-api.us-west-2.amazonaws.com/dev/",
+					"protocol": "https",
+					"host": [
+						"dv9p2dn016",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update todo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dv9p2dn016.execute-api.us-west-2.amazonaws.com/dev/003680eb-e3b0-4c8d-a6e3-16f79edf4747",
+					"protocol": "https",
+					"host": [
+						"dv9p2dn016",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"003680eb-e3b0-4c8d-a6e3-16f79edf4747"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "send email for all todos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"vukanwork@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dv9p2dn016.execute-api.us-west-2.amazonaws.com/dev/send-email",
+					"protocol": "https",
+					"host": [
+						"dv9p2dn016",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"send-email"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
