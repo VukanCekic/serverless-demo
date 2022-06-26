@@ -10,7 +10,6 @@ https://www.npmjs.com/package/aws-cli - npm install -g aws-cli
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html - Configuring AWS USER and Credentials
 https://github.com/serverless/serverless/blob/main/README.md - npm install -g serverless
 
-
 aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
@@ -18,6 +17,7 @@ Default region name [None]: us-west-2
 Default output format [None]: json
 
 REQUIRED FOR SERVERLESS !
+When testing via POSTMAN and using the provided collection, change the URL to the URL you get after deploying with serverless in the VARIABLES part of the collection
 
 ### Deployment
 
