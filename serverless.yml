@@ -1,4 +1,4 @@
-service: aws-node-express-api-project
+service: aws-node-api-project
 frameworkVersion: '3'
 
 provider:
