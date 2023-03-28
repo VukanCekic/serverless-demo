@@ -6,13 +6,13 @@ This template demonstrates how to develop and deploy a simple Node  API service 
 
 
 ## Dependencies
-https://www.npmjs.com/package/aws-cli - npm install -g aws-cli
-https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html - Configuring AWS USER and Credentials
-https://github.com/serverless/serverless/blob/main/README.md - npm install -g serverless
+### https://www.npmjs.com/package/aws-cli - npm install -g aws-cli
+### https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html - Configuring AWS USER and Credentials
+### https://github.com/serverless/serverless/blob/main/README.md - npm install -g serverless
 
-aws configure
-AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
-AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+## aws configure
+AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx
+AWS Secret Access Key [None]: xxxxxxxxxxxxxxxx
 Default region name [None]: us-west-2
 Default output format [None]: json
 
