@@ -11,12 +11,12 @@ This template demonstrates how to develop and deploy a simple Node  API service 
 ### https://github.com/serverless/serverless/blob/main/README.md - npm install -g serverless
 
 ## aws configure
-AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx
-AWS Secret Access Key [None]: xxxxxxxxxxxxxxxx
-Default region name [None]: us-west-2
-Default output format [None]: json
+### AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx
+### AWS Secret Access Key [None]: xxxxxxxxxxxxxxxx
+### Default region name [None]: us-west-2
+### Default output format [None]: json
 
-REQUIRED FOR SERVERLESS !
+## REQUIRED FOR SERVERLESS !
 When testing via POSTMAN and using the provided collection, change the URL to the URL you get after deploying with serverless in the VARIABLES part of the collection
 
 ### Deployment
